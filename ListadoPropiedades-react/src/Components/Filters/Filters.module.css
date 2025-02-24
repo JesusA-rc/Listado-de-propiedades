@@ -1,0 +1,51 @@
+.filters {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem; 
+}
+  
+.filters select,
+.filters input,
+.filters button {
+    padding: 0.75rem 1rem; 
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+  
+.filters select:focus,
+.filters input:focus {
+    border-color: #007bff; 
+}
+
+.filters button {
+    background-color:#bbe4e9; 
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+  
+.filters button:hover {
+    background-color: rgba(122, 239, 138, 0.966);
+}
+
+.filters .reset_filters{
+    background-color: #dc3545;
+    color: white; 
+    border: none;
+    padding: 0.75rem 1rem; 
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.filters .reset_filters:hover{
+    background-color: #b02a37;
+}
+

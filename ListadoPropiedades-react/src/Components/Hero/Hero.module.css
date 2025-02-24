@@ -1,0 +1,112 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+    height: 80vh;
+}
+
+.containerImg_background{
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+.containerImg_background img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero_text {
+  position: absolute;
+  top: 10%;
+  left: 50%; 
+  transform: translateX(-50%); 
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 10px; 
+}
+
+.hero_text h1 {
+  font-size: 4rem;
+  font-weight: bold; 
+  color: white; 
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+  margin: 0; 
+  transition: opacity 1s ease-in-out; 
+}
+
+.hero_text h1.fadeIn {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.hero_section{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 15px;
+  width: 100%;
+  max-width: 60rem;
+  background-color: rgba(159, 188, 184, 0.5);
+  backdrop-filter: blur(.2rem);
+  border-radius: 15px;
+  padding: 2rem 1rem;
+}
+
+.hero_filter_buttons{
+  display: grid;
+  grid-auto-columns: minmax(0,1fr);
+  grid-auto-flow: column;
+  margin: 0 auto;
+  max-width: 55rem;
+}
+
+.hero_filter_buttons button {
+  padding: 10px 20px; 
+  font-size: 18px; 
+  font-weight: bold;
+  cursor: pointer; 
+  background-color: white;
+  color: gray;
+  transition: background-color 0.3s ease; 
+  border: 2px solid #e3e3e3;
+}
+
+.hero_filter_buttons button:hover {
+  background-color: rgba(122, 239, 138, 0.966);
+}
+
+.hero_filter_buttons .button_active {
+  background-color: rgba(130, 228, 213, 0.966); 
+}
+
+.hero_filter_buttons button:first-child {
+  border-top-left-radius: 20px; 
+  border-bottom-left-radius: 20px;
+}
+  
+.hero_filter_buttons button:last-child {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px; 
+}
+
+.search_container {
+  margin: 0 auto;
+  width: 100%; 
+  max-width: 100%;
+}

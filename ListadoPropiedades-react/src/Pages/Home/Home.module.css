@@ -1,0 +1,59 @@
+.cards_info{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 8.5rem;
+    padding-bottom: 3.5rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    background-color: #e3f6f5;
+}
+
+.properties{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    background-color: #e3e3e3;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.filters_container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-top: 2rem;
+    gap: 20px;
+}
+
+.search_container{
+    width: 80%;
+}
+
+.properties_container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 20px;
+    gap: 20px;
+    row-gap: 160px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+.pagination_container{
+    margin-bottom: 20px;
+}
+
+@media (max-width:768px){
+    .search_container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
