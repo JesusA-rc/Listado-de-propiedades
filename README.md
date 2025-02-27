@@ -1,4 +1,5 @@
 Landing page de un listado de propiedades residenciales y comerciales, puede filtrar por tipo y precio, ademas puede buscar por nombre.
+Cuenta con pagina para poder ver una propiedad en especifico.
 Desarrollado con html, css, javascript y react.
 
 ![image](https://github.com/user-attachments/assets/42e1e51e-2969-480f-846a-b5d9d9d06b6e)
@@ -26,3 +27,13 @@ Desarrollado con html, css, javascript y react.
 ![image](https://github.com/user-attachments/assets/86d8deb9-4ac9-4e96-8f4d-39a3673c4173)
 
 ![image](https://github.com/user-attachments/assets/96dc8820-8c0f-4563-80ba-980b9b953202)
+
+![image](https://github.com/user-attachments/assets/a29345d5-f148-49f6-940e-44ae1116f5ff)
+
+![image](https://github.com/user-attachments/assets/9ad501ac-b632-41fc-9446-4d2cb3dd85b6)
+
+![image](https://github.com/user-attachments/assets/aab983c0-f4dd-4cae-a740-54d5cfa56a82)
+
+![image](https://github.com/user-attachments/assets/c6d35193-4f10-4a1e-9a6b-b1e1f9bd02b3)
+
+
