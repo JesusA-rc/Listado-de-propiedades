@@ -4,6 +4,7 @@ import Header from '../../Components/Header/Header'
 import propertiesData from '/src/data/properties';
 import { useParams } from 'react-router-dom';
 import {Navigate } from 'react-router-dom';
+import Footer from '../../Components/Footer/Footer';
 
 const PropertyDetail = () => {
   const {id} = useParams();
@@ -120,7 +121,7 @@ const PropertyDetail = () => {
           </div>
         </div>
       </div>
-
+      <Footer></Footer>
     </section>
   )
 }
